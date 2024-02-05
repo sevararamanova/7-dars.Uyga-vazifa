@@ -1,0 +1,210 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+@media screen and (max-witdh: 600px) {
+  body .element {
+    width: 100%;
+  }
+}
+
+.container {
+  width: 1440px;
+  background-color: white;
+  margin: 0px auto;
+}
+.container__header {
+  background-color: rgba(59, 208, 208, 0.8);
+  padding: 20px;
+  text-align: center;
+  color: rgb(239, 237, 237);
+  font-family: sans-serif;
+}
+.container__header p {
+  font-size: 14px;
+}
+.container__header a {
+  text-decoration: none;
+  color: rgb(239, 237, 237);
+}
+.container__header a:hover {
+  color: blue;
+}
+.container .subcontainer {
+  width: 1100px;
+  margin: 0px auto;
+}
+.container .subcontainer .nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  position: relative;
+}
+.container .subcontainer .nav__a {
+  position: absolute;
+  left: 550px;
+}
+.container .subcontainer .nav__a a {
+  text-decoration: none;
+  margin: 0px 20px;
+  color: rgb(137, 137, 137);
+  font-family: sans-serif;
+  font-size: 18px;
+}
+.container .subcontainer .nav a:hover {
+  color: rgba(82, 201, 201, 0.8);
+}
+.container .subcontainer .banner {
+  position: relative;
+}
+.container .subcontainer .banner__fon {
+  position: absolute;
+  left: 448px;
+  z-index: 1;
+}
+.container .subcontainer .banner__img {
+  background-color: none;
+  position: absolute;
+  top: 200px;
+  left: 740px;
+  z-index: 20;
+}
+.container .subcontainer .banner__text {
+  z-index: 10;
+}
+.container .subcontainer .banner__text-1 {
+  z-index: 30;
+  font-size: 40px;
+  font-weight: 600;
+  font-family: sans-serif;
+  line-height: 40px;
+  position: absolute;
+  top: 230px;
+  left: 170px;
+}
+.container .subcontainer .banner__text-1 span {
+  color: rgba(59, 196, 196, 0.8);
+}
+.container .subcontainer .banner__text-2 {
+  z-index: 40;
+  font-family: sans-serif;
+  font-size: 13px;
+  color: rgb(152, 152, 152);
+  position: absolute;
+  top: 370px;
+  left: 170px;
+}
+.container .subcontainer .banner__button {
+  background-color: rgba(59, 208, 208, 0.8);
+  color: white;
+  border: none;
+  margin: 40px 0px;
+  width: 150px;
+  height: 50px;
+  border-radius: 5px;
+}
+.container .subcontainer .banner__button:hover {
+  color: blue;
+}
+.container .subcontainer .banner__star span {
+  color: rgba(59, 208, 208, 0.8);
+}
+.container .subcontainer .banner__star p {
+  margin: 4px;
+}
+.container .subcontainer .fresh {
+  position: relative;
+}
+.container .subcontainer .fresh__fon {
+  position: absolute;
+  top: 770px;
+  left: 0px;
+}
+.container .subcontainer .fresh__yum {
+  position: absolute;
+  top: 850px;
+  left: 100px;
+}
+.container .subcontainer .fresh__img {
+  position: absolute;
+  top: 870px;
+  left: 700px;
+}
+.container .subcontainer .fresh__text {
+  position: absolute;
+  top: 980px;
+  padding: 10px;
+}
+.container .subcontainer .fresh__text h1 {
+  font-family: sans-serif;
+  color: rgba(59, 208, 208, 0.8);
+  font-size: 55px;
+  font-weight: 700;
+}
+.container .subcontainer .fresh__text p {
+  font-size: 15px;
+  color: rgb(145, 144, 144);
+}
+.container .subcontainer .fresh__text-p {
+  margin: 10px 0px;
+}
+.container .subcontainer .fresh__button {
+  background-color: rgba(59, 208, 208, 0.8);
+  color: white;
+  border: none;
+  margin: 40px 0px;
+  width: 150px;
+  height: 50px;
+  border-radius: 5px;
+}
+.container .subcontainer .fresh__button:hover {
+  color: blue;
+}
+.container .subcontainer .how {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.container .subcontainer .how__title {
+  position: absolute;
+  top: 1600px;
+  left: 550px;
+  font-size: 40px;
+  font-family: sans-serif;
+  color: rgba(59, 208, 208, 0.8);
+}
+.container .subcontainer .how__text {
+  position: absolute;
+  top: 1850px;
+  left: 200px;
+  font-family: sans-serif;
+  display: flex;
+  justify-content: space-around;
+}
+.container .subcontainer .how__text h3 {
+  text-align: center;
+}
+.container .subcontainer .how__text p {
+  text-align: center;
+  font-size: 12px;
+}
+.container .subcontainer .how__text2 {
+  margin-left: 130px;
+}
+.container .subcontainer .how__text3 {
+  margin-left: 130px;
+}
+.container .subcontainer .how__text-p1 {
+  margin: 10px;
+  color: rgb(160, 160, 160);
+}
+@media screen and (max-witdh: 600px) {
+  .container .subcontainer .element {
+    width: 100%;
+  }
+}/*# sourceMappingURL=main.css.map */
